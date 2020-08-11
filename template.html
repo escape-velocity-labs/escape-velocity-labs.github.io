@@ -1,3 +1,21 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="tech@evlabs.io";
+    $subject="Form to email message";
+    $sender=$_POST["name"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: name\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+$thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,27 +41,42 @@
 </head>
 
 <body class="index-page sidebar-collapse">
-<nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="500"
+
+<?=$thankYou ?>
+
+<nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="300"
      id="sectionsNav">
     <div class="container">
+
+        <div class="navbar-translate">
+
+            <a class="navbar-brand" href="https://www.evlabs.io">
+                Escape Velocity Labs </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
         <div class="collapse navbar-collapse">
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">
+                    <a href="#consulting" class="nav-link">
                         <i class="material-icons">explore</i>
                         Consulting
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">
+                    <a href="#training" class="nav-link">
                         <i class="fa fa-book"></i>
                         Training
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">
+                    <a href="#outreach" class="nav-link">
                         <i class="material-icons">people</i>
                         Outreach
                     </a>
@@ -62,161 +95,177 @@
                     <h2>
                         Escape Velocity Labs
                     </h2>
-                    <h3 class="title">Further beyond</h3>
+                    <h3 class="title">Let Machine Learning solve it.</h3>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div class="main main-raised">
-
+    <a name="consulting"></a>
     <div class="section section-basic">
         <div class="container">
+            <h2 class="text-center title">How we can help</h2>
+            <h4 class="text-center description">
+                After a first conversation, we'll identify the areas of your business where
+                Machine Learning solutions can make a great impact. Here's just a few examples:
 
+            </h4>
             <div class="row">
-                <div class="col-md-8 ml-auto mr-auto">
-                    <h4 class="description text-center">
-                        Escape Velocity Labs is a consulting partner specialized in using
-                        Machine Learning and Data Engineering solutions to build intelligent
-                        digital products.
-                    </h4>
+
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="icon icon-info">
+                            <i class="material-icons">timeline</i>
+                        </div>
+                        <h4 class="info-title">Demand Forecasting</h4>
+                        <p>
+                            Plan your inventory, set your prices optimally, estimate your customer and user
+                            volumes for a certain period of time.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="icon icon-info">
+                            <i class="material-icons">image</i>
+                        </div>
+                        <h4 class="info-title">Image Understanding</h4>
+                        <p>
+                            Extract information from your images to improve the features of
+                            your product or platform. Classify your images, detect features or objects in them,
+                            modify the behaviour of your platform based on the content, and much more.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="icon icon-info">
+                            <i class="material-icons">fingerprint</i>
+                        </div>
+                        <h4 class="info-title">Automate Internal Processes</h4>
+                        <p>
+                            Consolidate or streamline internal processes to reduce
+                            the amount of resources they require. A proper audit and reorganization
+                            can result in large savings.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="icon icon-info">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <h4 class="info-title">Anomaly And Spam Detection</h4>
+                        <p>
+                            Protect your users and your business by detecting potentially fraudulent transactions
+                            and messages.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="icon icon-info">
+                            <i class="fa fa-font"></i>
+                        </div>
+                        <h4 class="info-title">Text Understanding</h4>
+                        <p>
+                            Analyze and catalog efficiently large volumes of text from different sources.
+                            Understand the topics, content, sentiments and use it to make informed decisions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info">
+                        <div class="icon icon-info">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <h4 class="info-title">Product Recommendation</h4>
+                        <p>
+                            Have you ever wondered how Amazon or Netflix recommend new products that the customer
+                            will enjoy? The answer, of course, is Machine Learning.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="features section">
-                <h2 class="text-center title">Consulting</h2>
-                <h4 class="text-center description">
-                    These are just some examples of projects where we can help:
-                </h4>
-                <div class="row">
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="material-icons">timeline</i>
-                            </div>
-                            <h4 class="info-title">Demand Forecasting</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="material-icons">image</i>
-                            </div>
-                            <h4 class="info-title">Image Understanding</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="material-icons">fingerprint</i>
-                            </div>
-                            <h4 class="info-title">Automate Internal Processes</h4>
-                            <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <h4 class="info-title">Anomaly And Spam Detection</h4>
-                            <p>
-                                Protect your users and your business by detecting potentially fraudulent transactions
-                                and messages.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="fa fa-font"></i>
-                            </div>
-                            <h4 class="info-title">Text Understanding</h4>
-                            <p>
-                                Analyze and catalog efficiently large volumes of text from different sources.
-                                Understand the topics, content, sentiments and use it to make informed decisions.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div class="icon icon-info">
-                                <i class="fa fa-gift"></i>
-                            </div>
-                            <h4 class="info-title">Product Recommendation</h4>
-                            <p>
-                                Have you ever wondered how Amazon or Netflix recommend new products that the customer
-                                will enjoy? The answer, of course, is Machine Learning.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </div>
 
-    <div class="section section-cards section-dark">
+    <a name="training"></a>
+
+    <div class="projects-3 section-dark" id="projects-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
-                    <div class="image-container">
-                        <img class="img" src="./assets/img/nv_13-Colorized.png">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h6 class="category text-muted">Training</h6>
+                    <h2 class="title">Affordable Online Courses</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 mr-auto ml-auto">
+                    <div class="card card-plain">
+                        <a href="#pablo" disabled="true">
+                            <div class="card-header card-header-image">
+                                <img src="./assets/img/examples/card-project1.jpg">
+                            </div>
+                        </a>
+                        <div class="card-body ">
+                            <h6 class="card-category">Machine Learning</h6>
+                            <h4 class="card-title">(In production) Reinforcement Learning</h4>
+                            <p class="card-description">
+                                This course is a deep dive into a branch of Machine Learning called Reinforcement
+                                Learning. This area of machine learning is concerned with how agents should act in order
+                                to maximize their long term rewards. In chess, the player (agent) wants find the optimal
+                                moves that will lead to victory (reward).
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 ml-auto">
-                    <div class="section-description">
-                        <h3 class="title">Online education</h3>
-                        <h6 class="description">Comprehensive and affordable courses</h6>
-                        <h5 class="description">
-                            Part of our mission to accelerate the adoption of technological innovation
-                            involves the creation of useful, curated and affordable courses. While these
-                            courses are aimed at practitioners, they contain the foundational mathematical
-                            knowledge necessary fully grasp the content. The platforms on which our courses
-                            will be available are yet to be decided.
-                        </h5>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
 
 
+    <a name="outreach"></a>
     <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="title text-center">Our outreach activities</h2>
+                    <h4 class="text-center description">
+                        We are involved in spreading the latest achievements of
+                        Artificial Intelligence to a broader audience. Building awareness
+                        accelerates the adoption of these technologies by businesses,
+                        institutions and individuals.
+                    </h4>
                     <br>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card card-blog">
                                 <div class="card-header card-header-image">
                                     <a href="#pablo">
-                                        <img class="img img-raised" src="./assets/img/examples/blog6.jpg">
+                                        <img class="img img-raised" src="./assets/img/compared.png">
                                     </a>
                                 </div>
                                 <div class="card-body">
                                     <h6 class="category text-danger">Youtube</h6>
                                     <h4 class="card-title">
-                                        <a href="#pablo">
-                                            Restoring and colorizing old photographs and footage
-                                            using generative models.
-                                        </a>
+                                        Restore and colorize old photographs and footage
+                                        with Neural Networks.
+
                                     </h4>
                                     <p class="card-description">
                                         We take rare and interesting footage from the early XX century and
                                         photographs from the XIX century and use cutting-edge AI techniques
-                                        to bring them to the XXI century.
-                                        <a href="#pablo"> Watch Now </a>
+                                        to bring them into the XXI century.
+                                        <a href="https://www.youtube.com/channel/UCksRNSzWuMV5IfdrPlglqqw"> Watch Now </a>
                                     </p>
                                 </div>
                             </div>
@@ -232,33 +281,37 @@
     <div class="section section-contacts">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-                <h2 class="text-center title">Work with us</h2>
+                <h2 class="text-center title">Let's talk</h2>
                 <h4 class="text-center description">
-                    Do you want to leverage your data to run your business more efficiently?
-                    Get in touch and we'll do the rest.
+                    Ready to transform your business? Drop us a line and we'll take it from here.
                 </h4>
-                <form class="contact-form">
+
+                <form
+                    class="contact-form"
+                    method="post"
+                    action="contact.php"
+                >
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="bmd-label-floating">Your Name</label>
-                                <input type="email" class="form-control">
+                                <input type="text" class="form-control" name="name">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="bmd-label-floating">Your Email</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control" name="senderEmail">
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
-                        <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+                        <textarea type="text" class="form-control" rows="4" id="exampleMessage" name="message"></textarea>
                     </div>
                     <div class="row">
                         <div class="col-md-4 ml-auto mr-auto text-center">
-                            <button class="btn btn-danger btn-raised">
+                            <button class="btn btn-danger btn-raised" type="submit" name="submit">
                                 Send Message
                             </button>
                         </div>
@@ -268,46 +321,49 @@
         </div>
     </div>
 
-
-
 </div>
 
 <div class="space-50"></div>
 
 <footer class="footer footer-white">
     <div class="container">
-        <a class="footer-brand" href="http://www.creative-tim.com">Escape Velocity Labs SL</a>
+        <a class="footer-brand" href="https://www.evlabs.io">Escape Velocity Labs SL</a>
         <ul class="pull-center">
             <li>
-                <a href="#pablo">
+                <a href="#consulting">
                     Consulting
                 </a>
             </li>
             <li>
-                <a href="#pablo">
+                <a href="#training">
                     Training
                 </a>
             </li>
             <li>
-                <a href="#pablo">
+                <a href="#outreach">
                     Outreach
                 </a>
             </li>
         </ul>
         <ul class="social-buttons float-right">
             <li>
-                <a href="https://twitter.com/CreativeTim" target="_blank"
-                   class="btn btn-just-icon btn-link btn-twitter">
-                    <i class="fa fa-twitter"></i>
+                <a href="https://www.linkedin.com/company/escape-velocity-labs/about/?viewAsMember=true"
+                   target="_blank"
+                   class="btn btn-just-icon btn-link btn-linkedin">
+                    <i class="fa fa-linkedin"></i>
                 </a>
             </li>
             <li>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-youtube">
+                <a href="https://www.youtube.com/channel/UCksRNSzWuMV5IfdrPlglqqw"
+                   target="_blank"
+                   class="btn btn-link btn-just-icon btn-youtube">
                     <i class="fa fa-youtube-play"></i>
                 </a>
             </li>
             <li>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-instagram">
+                <a href="https://www.instagram.com/escapevelocitylabs/"
+                   target="_blank"
+                   class="btn btn-link btn-just-icon btn-instagram">
                     <i class="fa fa-instagram"></i>
                 </a>
             </li>

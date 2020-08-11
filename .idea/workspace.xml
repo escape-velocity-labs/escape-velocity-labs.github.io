@@ -15,11 +15,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vault" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/vault" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -34,14 +36,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596988336808</updated>
-      <workItem from="1596988337870" duration="13984000" />
+      <workItem from="1596988337870" duration="32339000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="272" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597182456202">
+      <screen x="0" y="23" width="1440" height="777" />
+    </state>
+    <state x="272" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.777@0.23.1440.777" timestamp="1597182456202" />
     <state width="1419" height="198" key="GridCell.Tab.0.bottom" timestamp="1596988348930">
       <screen x="0" y="23" width="1440" height="777" />
     </state>
@@ -58,5 +67,9 @@
       <screen x="0" y="23" width="1440" height="777" />
     </state>
     <state width="1419" height="198" key="GridCell.Tab.0.right/0.23.1440.777@0.23.1440.777" timestamp="1596988348930" />
+    <state x="221" y="50" key="SettingsEditor" timestamp="1597182474977">
+      <screen x="0" y="23" width="1440" height="777" />
+    </state>
+    <state x="221" y="50" key="SettingsEditor/0.23.1440.777@0.23.1440.777" timestamp="1597182474977" />
   </component>
 </project>
