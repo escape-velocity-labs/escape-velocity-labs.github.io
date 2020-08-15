@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94a13c0a-ebf8-4ce9-89c5-d278e98f8dd8" name="Default Changelist" comment="" />
+    <list default="true" id="94a13c0a-ebf8-4ce9-89c5-d278e98f8dd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/evlabs-logo-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/success/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vault/indexv2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/material-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/material-kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/material-kit.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/material-kit.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/modernizr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/material-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/material-kit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/material-kit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/material-kit.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/material-kit/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/material-kit/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/material-kit/variables/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/material-kit/variables/_brand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fru3rzAxpNUBkBVl3LCHfBLkLK" />
   <component name="ProjectViewState">
@@ -13,6 +40,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
@@ -27,6 +56,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vault" />
       <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/success" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596988336808</updated>
       <workItem from="1596988337870" duration="33157000" />
+      <workItem from="1597245714800" duration="7490000" />
+      <workItem from="1597430183582" duration="14962000" />
     </task>
     <servers />
   </component>
@@ -52,25 +84,37 @@
       <screen x="0" y="23" width="1440" height="777" />
     </state>
     <state x="272" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.777@0.23.1440.777" timestamp="1597182456202" />
-    <state width="1419" height="198" key="GridCell.Tab.0.bottom" timestamp="1596988348930">
+    <state width="1419" height="198" key="GridCell.Tab.0.bottom" timestamp="1597245711451">
       <screen x="0" y="23" width="1440" height="777" />
     </state>
-    <state width="1419" height="198" key="GridCell.Tab.0.bottom/0.23.1440.777@0.23.1440.777" timestamp="1596988348930" />
-    <state width="1419" height="198" key="GridCell.Tab.0.center" timestamp="1596988348930">
+    <state width="1419" height="198" key="GridCell.Tab.0.bottom/0.23.1440.777@0.23.1440.777" timestamp="1597245711451" />
+    <state width="1419" height="198" key="GridCell.Tab.0.center" timestamp="1597245711450">
       <screen x="0" y="23" width="1440" height="777" />
     </state>
-    <state width="1419" height="198" key="GridCell.Tab.0.center/0.23.1440.777@0.23.1440.777" timestamp="1596988348930" />
-    <state width="1419" height="198" key="GridCell.Tab.0.left" timestamp="1596988348929">
+    <state width="1419" height="198" key="GridCell.Tab.0.center/0.23.1440.777@0.23.1440.777" timestamp="1597245711450" />
+    <state width="1419" height="198" key="GridCell.Tab.0.left" timestamp="1597245711450">
       <screen x="0" y="23" width="1440" height="777" />
     </state>
-    <state width="1419" height="198" key="GridCell.Tab.0.left/0.23.1440.777@0.23.1440.777" timestamp="1596988348929" />
-    <state width="1419" height="198" key="GridCell.Tab.0.right" timestamp="1596988348930">
+    <state width="1419" height="198" key="GridCell.Tab.0.left/0.23.1440.777@0.23.1440.777" timestamp="1597245711450" />
+    <state width="1419" height="198" key="GridCell.Tab.0.right" timestamp="1597245711451">
       <screen x="0" y="23" width="1440" height="777" />
     </state>
-    <state width="1419" height="198" key="GridCell.Tab.0.right/0.23.1440.777@0.23.1440.777" timestamp="1596988348930" />
+    <state width="1419" height="198" key="GridCell.Tab.0.right/0.23.1440.777@0.23.1440.777" timestamp="1597245711451" />
     <state x="221" y="50" key="SettingsEditor" timestamp="1597182474977">
       <screen x="0" y="23" width="1440" height="777" />
     </state>
     <state x="221" y="50" key="SettingsEditor/0.23.1440.777@0.23.1440.777" timestamp="1597182474977" />
+    <state x="518" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597359429480">
+      <screen x="0" y="23" width="1440" height="777" />
+    </state>
+    <state x="518" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.777@0.23.1440.777" timestamp="1597359429480" />
+    <state width="600" height="277" key="javadoc.popup" timestamp="1597436611499">
+      <screen x="0" y="23" width="1440" height="777" />
+    </state>
+    <state width="600" height="277" key="javadoc.popup/0.23.1440.777@0.23.1440.777" timestamp="1597436611499" />
+    <state x="385" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1597350538267">
+      <screen x="0" y="23" width="1440" height="777" />
+    </state>
+    <state x="385" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1440.777@0.23.1440.777" timestamp="1597350538267" />
   </component>
 </project>
