@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a13c0a-ebf8-4ce9-89c5-d278e98f8dd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/evlabs-logo-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/success/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vault/indexv2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/material-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/material-kit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/material-kit.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/material-kit.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/demo/modernizr.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/demo/modernizr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/material-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/material-kit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/material-kit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/material-kit.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/material-kit/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/material-kit/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/material-kit/variables/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/material-kit/variables/_brand.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +55,7 @@
       <updated>1596988336808</updated>
       <workItem from="1596988337870" duration="33157000" />
       <workItem from="1597245714800" duration="7490000" />
-      <workItem from="1597430183582" duration="14962000" />
+      <workItem from="1597430183582" duration="15907000" />
     </task>
     <servers />
   </component>
